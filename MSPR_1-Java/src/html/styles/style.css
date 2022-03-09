@@ -1,0 +1,102 @@
+html, body, p{ 
+	margin:0; 
+	padding:0; 
+}
+
+header{
+	padding:45px 0px;/*Marge verticale*/
+	background-color:#379EC1; /*Couleur de fond*/
+	text-align:center;/*texte centré*/
+}
+
+.centercolumn2{
+    font-family: roboto;
+    font-weight: lighter;
+	width:500px;/*Taille de la colonne centrée moins le padding*/
+	background-color:#379EC1;/*Couleur de fond*/
+	margin: auto; /*centrer la colonne*/
+	padding:265px 25px;/*margin interne*/
+}
+
+.centercolumn3{
+    font-family: roboto;
+    font-weight: lighter;
+	margin: auto; /*centrer la colonne*/
+	padding:200px 20px;/*margin interne*/
+	text-align: right;
+	display: flex !important;
+	align-items: flex-end !important;
+	flex-direction: column !important;
+
+
+}
+.centercolumn3>div{
+	padding-bottom: 20px;
+	
+}
+.backgroundwhite{
+	background-color:#379EC1;/*Couleur de fond*/
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+   }
+
+.identitycard {
+
+	width: 40%;
+	padding-right: 15px;
+	padding-top: 15px;
+
+   }
+
+.identityparent{
+	display:flex;
+	justify-content: space-between;
+}
+
+.name{
+	font-family: roboto;
+	font-size: 25px;
+	height: 50px;
+	width: 280px;
+	padding-left: 5px;
+	padding-top: 20px;
+	border:#000000 solid 3px;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+.Acceuil{
+	font-weight: medium;
+	font-family: roboto;
+	font-size: 20px;
+}
+h2{
+	font-weight: medium;
+	font-family: roboto;
+	font-size: 35px;
+
+}
+
+p{
+	font-weight: bold;
+	font-family: roboto;
+	font-size: 25px;
+
+}
+#content{
+	background-color: #659224;/*Couleur de fond*/
+	font-weight: lighter;
+	font-family: roboto;
+	font-size: 25px;
+}
+
+footer{
+	padding:30px 0px;/*Marge verticale*/
+	background-color:#000000; /*Couleur de fond*/
+	text-align:center;/*texte centré*/
+}
